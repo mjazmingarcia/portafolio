@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="es">
+  <head>
+    <!-- Metadatos -->
+    <meta charset="utf-8">
+    <meta name="author" content="Mónica García">
+    <meta name="description" content="Portafolio de desarrollo web de Mónica García">
+    <meta name="keywords" content="HTML, CSS, JavaScript">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Titulo -->
+    <title>Mónica García | Desarrollo Web Front-End</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="imagenes/lotus.png">
+    <!-- Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <!-- Iconos de Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
+    <!-- CSS -->
+    <link href="style.css" rel="stylesheet">
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@500&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Questrial&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat:wght@600&display=swap" rel="stylesheet"> 
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Karla&display=swap" rel="stylesheet"> 
+  </head>
+  <body>
+    <!-- Barra de navegacion -->
+    <nav class="navbar navbar-expand-md navbar-light">
+      <div class="container-fluid">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbar-toggler">
+          <a class="navbar-brand" href="#">
+            <img src="imagenes/lotus.png" width="50" alt="Logo de la página web">
+          </a>
+          <ul class="navbar-nav d-flex justify-content-center align-items-center">
+            <li class="nav-item">
+              <a class="nav-link link-color" aria-current="page" href="#sobre-mi">Sobre mí</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-color" href="#proyectos">Proyectos</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-color" href="#testimonios">Testimonios</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link link-color" href="#contacto">Contacto</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Seccion Hero -->
+    <section class="hero align-items-stretch">
+      <div class="hero-principal d-flex flex-column justify-content-center align-items-center">
+        <img class="hero-imagen-desarrollador rounded-circle" src="imagenes/foto.png" alt="Foto de Mónica García">
+        <h1>¡Hola! Soy Mónica</h1>
+        <!--<h2>Desarrollo sitios web y escribo artículos sobre programación.</h2>-->
+
+        <!--Animación con JavaScript-->
+        <h2 class="mb-4" id="typewriter"></h2>
+      </div>
+      <div class="hero-inferior">
+        <img class="hero-inferior-imagen img-fluid" src="imagenes/lenguajes.png" alt="Monitor, teclado, café, mouse y logos de HTML, CSS, JavaScript,Python, LaTeX, Fortran, R, Wolfram Mathematica, CorelDraw y Canva">
+      </div>
+    </section>
+
+    <!-- Sobre mi -->
+    <section id="sobre-mi" class="sobre-mi seccion-clara">
+      <div class="contenedor">
+        <img class="imagen-about" src="imagenes/hoja.png" alt="Foto de una hoja de loto">
+        <p class="seccion-texto">Soy una estudiante de último año de la Licenciatura en Física de la UNAM interesada en el desarrollo web, la creación de contenido y el análisis de datos. Me considero una persona apasionada por la vida que afronta con optimismo cada aprendizaje, oportunidad o reto que se presente en el camino.</p>
+      </div>
+    </section>
+
+    <!-- Experiencia -->
+    <section class="experiencia seccion-oscura">
+      <div class="container text-center">
+        <div class="row">
+          <!-- Desarrollo Web -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-laptop-fill"></i>
+            <p class="experiencia-titulo">Desarrollo Web</p>
+            <p>Habilidades de continuo aprendizaje desarrolladas a partir del curso educativo extracurricular intensivo Tecnolochicas Pro, donde se comprendieron los temas: html, css, github y javascript aplicados a la creación de un sitio web atractivo y de interés personal y la clonación de la página de Google. Se darrollarron las capacidades para la resolución de problemas y planificación, asi como la creatividad. </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-light">HTML</span>
+              <span class="badge text-bg-light">CSS</span>
+              <span class="badge text-bg-light">JavaScript</span>
+            </div>
+          </div>
+          <!-- Creacion de contenido -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-pencil-square"></i>
+            <p class="experiencia-titulo">Creación de contenido</p>
+            <p>Habilidad para transmitir mensajes e ideas a través de imágenes, presentaciones y vídeos creados con diversos programas que pueden complementarse fácilmente para obtener resultados satisfactorios y de calidad.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-light">CorelDRAW</span>
+              <span class="badge text-bg-light">Canva</span>
+              <span class="badge text-bg-light">Filmora</span>
+            </div>
+          </div>
+          <!-- Estudiante -->
+          <div class="columna col-12 col-md-4">
+            <i class="bi bi-file-earmark-person-fill"></i>
+            <p class="experiencia-titulo">Educación</p>
+            <p>Estudiante activa de la Licenciatura en Física impartida por la UNAM. He aprendido a transmitir con claridad mis ideas y emprender la resolución de problemas siguiendo el método científico. Me he familiarizado con diversos lenguajes de programación en función de mis intereses y requerimientos escolares entre los que destaca el análisis de datos.  </p>
+            <div class="badges-contenedor">
+              <span class="badge text-bg-light">Tecnolochicas PRO</span>
+              <span class="badge text-bg-light">Python</span>
+              <span class="badge text-bg-light">R</span>
+              <span class="badge text-bg-light">Fortran</span>
+              <span class="badge text-bg-light">LaTeX</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Proyectos -->
+    <section id="proyectos" class="proyectos-recientes seccion-clara d-flex flex-column">
+      <h2 class="seccion-titulo">Mis proyectos recientes</h2>
+      <h3 class="seccion-descripcion">Estos son algunos de mis proyectos más recientes que puedes consultar en GitHub o en vivo</h3>
+      <!-- Galeria de Proyectos -->
+      <div class="container text-center proyectos-contenedor">
+        <div class="row">
+          <!-- Proyecto 1 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto1.png" alt="Proyecto 1">
+              <div class="overlay">
+                <p>Clon de Google</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/mjazmingarcia/mjazmingarcia.github.io" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mjazmingarcia.github.io/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-globe"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 2 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto2.png" alt="Proyecto 2">
+              <div class="overlay">
+                <p>La Web de Zongzi</p>
+                <div class="iconos-contenedor">
+                  <a href="https://github.com/mjazmingarcia/zongziweb" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-github"></i>
+                  </a>
+                  <a href="https://mjazmingarcia.github.io/zongziweb/" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-globe"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Proyecto 3 -->
+          <div class="col-12 col-md-6 col-lg-4">
+            <div class="proyecto">
+              <img src="imagenes/proyecto3.png" alt="Proyecto 3">
+              <div class="overlay">
+                <p>Experimento de Millikan</p>
+                <div class="iconos-contenedor">
+                  <a href="https://docs.google.com/presentation/d/1l97F9fZ_xd6Ac1doyTUVtIZOxdmCrqeMI7dN8ofzC2Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">
+                    <i class="bi bi-globe"></i>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+          
+        </div>
+      </div>
+      <a href="https://github.com/mjazmingarcia" target="_blank" rel="noopener noreferrer">
+        <button type="button" class="btn btn-info">
+          Ver más proyectos
+          <i class="bi bi-arrow-right-circle-fill"></i>
+        </button>
+      </a>
+    </section>
+
+    <!-- Testimonios -->
+    <section id="testimonios" class="testimonios seccion-oscura">
+      <h2 class="seccion-titulo titulo-osc">Testimonios</h2>
+      
+      <!-- Carrusel -->
+      <div id="testimonios-carrusel" class="carousel carousel-light slide" data-bs-ride="carousel">
+        <div class="carousel-inner">
+          <div class="carousel-item active">
+            <div class="container">
+              <img class="testimonio-imagen rounded-circle" src="imagenes/Miranda.JPG" alt="Foto de Gino">
+              <p class="testimonio-texto">Mónica es una estudiante destacada en el bootcamp de Tecnolochicas Pro de programación Frontend. Ha desarrollado con excelencia sus habilidades técnicas; además de ser una persona curiosa, perseverante y colaborativa. Estoy segura de que será una gran adición a cualquier equipo de programación.</p>
+              <div class="testimonio-info">
+                <p class="cliente">Miranda Jaramillo Morales</p>
+                <p class="cargo"> Software Engineer</p>
+              </div>
+            </div>
+          </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Anterior</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#testimonios-carrusel" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Siguiente</span>
+        </button>
+      </div>
+    </section>
+
+
+
+  
+
+    <!-- footer -->
+
+  <footer class="contacto d-flex flex-column align-items-center justify-content-center">
+    <div class="container text-center">
+      <div class="row">
+        <div class="col-sm-12 col-md-5">
+          <div class="seccion-titulo">
+            ¡Charlemos!
+          </div>
+          <div class="descripcion">
+            Las personas se encuentran cuando necesitan enontrarse, trabajemos juntos. Quedo atenta a cualquier duda :)
+          </div>
+
+        </div class="row">
+        <div class="col-sm-12 col-md-7 iconos-redes-sociales d-flex flex-wrap align-items-center justify-content-center">
+          <a href="https://github.com/mjazmingarcia" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-github"></i>
+          </a>
+          <a href="https://www.linkedin.com/in/monica-jazmin-garcia/" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-linkedin"></i>
+          </a>
+          <a href="mailto:mjazgs@gmail.com" target="_blank" rel="noopener noreferrer">
+            <i class="bi bi-envelope-fill"></i>
+          </a>
+        </div>
+      </div>
+      <div class="derechos-de-autor">Creado por Mónica García (2023) &#169;</div>
+    </div>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
+        <script src="https://unpkg.com/typewriter-effect@latest/dist/core.js"></script>
+        <script src="main.js"></script>
+
+  </body>
+</html>
