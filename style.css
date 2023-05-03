@@ -270,11 +270,11 @@ h3 {
 }
 
 .testimonios .carousel {
-  min-width: 800px;
+  max-width: 800px;
 }
 
 .carousel-item {
-  height: 500px;
+  min-height: 500px;
 }
 
 .carousel-item .container {
